@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title></title>
+</head>
+<!-- Java Script -->
+
+
+       <script type="text/javascript">
+         function submit(){
+          alert("Your Order is Confirmed")
+         }
+       </script>
+
+<body>
+  <div class="container mt-5" id="foorm">
+    <form>
+      <div class="form-group">
+        <label for="name" style="color: #ff4685;">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email" style="color: #ff4685;">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="address" style="color: #ff4685;">Address</label>
+        <textarea class="form-control" id="address" rows="3" placeholder="Enter your address"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="payment" style="color: #ff4685;">Payment Method</label>
+        <select class="form-control" id="payment">
+          <option>Credit Card</option>
+          <option>Debit Card</option>
+          <option>Net Banking</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-danger"><a href="Homepage.html"  onclick="submit()" style="color: white; text-decoration: none;">Buy Now</a></button>
+    </form>
+  </div>
+</body>
+<style>
+  label {
+    font-weight: bold;
+  }
+  /*#foorm{
+    border: 1px solid powderblue;
+  }*/
+</style>
+
+</html>
